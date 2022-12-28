@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 80px;
+    background-color: black;
+}
+.inner-header{
+    width: 82%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+.logo-section{
+    width: 40%;
+    height: 80%;
+    overflow: hidden;
+    float: left;
+}
+.logo-section img{
+    width: 9.26%;
+    padding: 2px 0;
+    filter: invert(1);
+    margin-top: 17.6px;
+    margin-left: 163px;
+    left: 6.5px;
+    position: absolute;
+}
+.navs{
+    width: 50%;
+    height: 100%;
+    float: right;
+    /* margin-left: 144px; */
+}
+.navs ul{
+    list-style: none;
+    margin-left: 37px;
+}
+.navs ul a{
+    margin-right: 37.6px;
+    margin-top: 32px;
+    font-size: 15px;
+    float: left;
+    color: white;
+    font-weight: 700;
+}
+
+article{
+    height: 376px;
+    background: url("https://www.scdn.co/i/free/bubbles-dktp.svg") center -138px , linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-size: cover;
+    height: 600px;
+}
+.mobile-pic{
+    width: 40%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+/* .phone-out{
+    width: 18.6%;
+    height: 483px;
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: 100px;
+    padding: 10px 3px;
+    overflow: hidden;
+} */
+.mobile-pic svg{
+    width: 50%;
+    display: block;
+    margin-left: 200px;
+    margin-top: 120px;
+}
+
+.mobile-pic img{
+    z-index: 2  ;
+    position: absolute;
+    width: 47%;
+    margin-top: -540px;
+    margin-left: 210px;
+}
+
+.article-text{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.article-text h1{
+    margin-top: 180px;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    line-height: 77px;
+}
+.article-text button,.ready-play button{
+    margin-top:30px;
+    height: 50px;
+    width: 190px;
+    background-color: white;
+    border-radius: 50px;
+    border-image-outset: 30px;
+    border: 0;
+    font-weight: 700;
+    transition: .1s;
+}
+.article-text button:hover,.ready-play button:hover{
+   transform: scale(1.05);
+}
+.why-section{
+    position: relative;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.why-inner{
+    position: absolute;
+    width: 78%;
+    height: 75%;
+    margin-top: 75px;
+    display: flex;
+}
+.why-head{
+    width: 100%;
+    position: absolute;
+    height: 21%;
+}
+.why-head h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.why-contents{
+    width: 25%;
+    height: 100%;
+}
+.why-image{
+    width: 80%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 76px;
+}
+.why-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 62%;
+}
+.why-text{
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.why-text h2{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.its-free{
+    height: 445px;
+    color: white;
+    background-image: linear-gradient(#b023c2 15%,#610be6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+}
+.got-questions{
+    position: relative;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.questions-head {
+    width: 100%;
+    position: absolute;
+    height: 21%;
+}
+.questions-head h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+}
+.questions-inner{
+    position: absolute;
+    width: 78%;
+    height: 75%;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+.got-list{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.got-list select{
+    height: 76px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: #e5e5e5;
+    background-color: white;
+    padding: 10px 39px;
+    margin-bottom: 10px;
+}
+.got-list select:hover{
+    background-color: rgb(243, 243, 243);
+    text-decoration: underline;
+    text-decoration-thickness:1px ;
+    border: 0;
+}
+
+.ready-play{
+    height: 454px;
+    background: url("https://www.scdn.co/i/free/lets-play.svg") left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ready-play h1{
+    margin-top: 131px;
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    transform: scale(1,1.1);
+}
+
+footer{
+    width: 100%;
+    height: 530px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.inner-footer{
+    margin-top: -70px;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.footer-logo{
+    width: 15%;
+    height: 100%;
+    overflow: hidden;
+}
+.footer-logo img{
+    margin: 0;
+    filter: invert(1);
+    width: 80%;
+    margin-top: 10px;
+}
+.inner-list{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-content{
+    max-width: 33.9%;
+}
+.list-content ul{
+    margin-top: 33px;
+}
+.list-content h5{
+    color: #919496;
+    margin-bottom: 30px;
+}
+.list-content li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.list-content li a{
+    color: white;
+    transition: .3s;
+}
+.list-content li a:hover,.lang h6:hover,
+.privacy p:hover,.privacy a:hover{
+    color: #1ed760;
+}
+.footer-social{
+    margin-left:30px ;
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction:row-reverse;
+}
+.social-inner{
+    display: flex;
+    width: 60%;
+    height: 60px;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+.circle{
+    margin-right:10px ;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #222326;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.circle a{
+    margin-left: 11px;
+}
+.circle img{
+    width: 70%;
+    background-color: white;
+}
+.circle img:hover{
+    background-color: #1ed760;
+}
+.footer-lang{
+    width: 70%;
+    height: 20px;
+}
+.lang{
+    color: #919496;
+    float: right;
+}
+.lang img{
+    padding: 0 8px;
+    margin-top:2px ;
+}
+.lang h6{
+    margin-top: 3px;
+    float: right;
+    transition: .4s;
+}
+.privacy{
+    width: 80%;
+    height: 20px;
+}
+.privacy ul{
+    list-style: none;
+}
+.privacy a{
+    color: #919496;
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.privacy p{
+    float: right;
+    color: #919496;
+    font-size: 12px;
+    margin-right: 73px;
+}
